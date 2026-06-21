@@ -1,4 +1,5 @@
 //Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 
 #include <iostream>
@@ -203,6 +204,7 @@ void mainMenu() {
 }
 
 //Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void courseMenu() {
 
@@ -266,7 +268,8 @@ void courseMenu() {
         }
     }
 }
-// Made By Hamdan Chughtai
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void addCourse() {
 
@@ -320,6 +323,7 @@ void addCourse() {
     pauseScreen();
 }
 //Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void editCourse() {
 
@@ -364,6 +368,7 @@ void editCourse() {
     pauseScreen();
 }
 //Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void dropCourse() {
 
@@ -490,6 +495,7 @@ void searchCourse() {
 }
 
 //Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 void studentMenu() {
 
     int choice;
@@ -565,6 +571,9 @@ void studentMenu() {
     }
 }
 
+
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void registerStudent() {
 
@@ -650,6 +659,9 @@ void editStudent() {
 
     pauseScreen();
 }
+
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 
 void removeStudent() {
@@ -750,6 +762,9 @@ void searchStudent() {
 }
 
 
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
+
 void enrollStudent() {
 
     system("cls");
@@ -845,6 +860,9 @@ void enrollStudent() {
     pauseScreen();
 }
 
+
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void unenrollStudent() {
 
@@ -972,6 +990,9 @@ void scheduleMenu() {
     }
 }
 
+
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
 
 void viewStudentSchedule() {
 
@@ -1108,6 +1129,9 @@ void loadCoursesFromFile() {
 }
 
 
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
+
 void saveStudentsToFile() {
 
     ofstream file("students.txt");
@@ -1163,3 +1187,6 @@ void loadStudentsFromFile() {
 
     file.close();
 }
+
+//Made By Hamdan Chughtai
+//https://github.com/hamdanchughtai/University-Management-System
